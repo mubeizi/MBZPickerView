@@ -16,6 +16,8 @@
 		7721F97E1E9B569C002DB738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7721F97C1E9B569C002DB738 /* LaunchScreen.storyboard */; };
 		7721F9891E9B569C002DB738 /* MBZPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7721F9881E9B569C002DB738 /* MBZPickerViewTests.m */; };
 		7721F9941E9B569C002DB738 /* MBZPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7721F9931E9B569C002DB738 /* MBZPickerViewUITests.m */; };
+		7721F9A31E9B5870002DB738 /* MBZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7721F9A21E9B5870002DB738 /* MBZPickerView.m */; };
+		7760CDF41E9CAC7A00B95905 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7760CDF31E9CAC7A00B95905 /* Address.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		7721F98F1E9B569C002DB738 /* MBZPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBZPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7721F9931E9B569C002DB738 /* MBZPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBZPickerViewUITests.m; sourceTree = "<group>"; };
 		7721F9951E9B569C002DB738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7721F9A11E9B5870002DB738 /* MBZPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBZPickerView.h; sourceTree = "<group>"; };
+		7721F9A21E9B5870002DB738 /* MBZPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBZPickerView.m; sourceTree = "<group>"; };
+		7760CDF31E9CAC7A00B95905 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 				7721F96F1E9B569B002DB738 /* AppDelegate.m */,
 				7721F9711E9B569B002DB738 /* ViewController.h */,
 				7721F9721E9B569B002DB738 /* ViewController.m */,
+				7721F9A11E9B5870002DB738 /* MBZPickerView.h */,
+				7721F9A21E9B5870002DB738 /* MBZPickerView.m */,
+				7760CDF31E9CAC7A00B95905 /* Address.plist */,
 				7721F9741E9B569C002DB738 /* Main.storyboard */,
 				7721F97A1E9B569C002DB738 /* Assets.xcassets */,
 				7721F97C1E9B569C002DB738 /* LaunchScreen.storyboard */,
@@ -249,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7721F97E1E9B569C002DB738 /* LaunchScreen.storyboard in Resources */,
+				7760CDF41E9CAC7A00B95905 /* Address.plist in Resources */,
 				7721F97B1E9B569C002DB738 /* Assets.xcassets in Resources */,
 				7721F9761E9B569C002DB738 /* Main.storyboard in Resources */,
 			);
@@ -278,6 +287,7 @@
 				7721F9791E9B569C002DB738 /* MBZPickerView.xcdatamodeld in Sources */,
 				7721F9731E9B569B002DB738 /* ViewController.m in Sources */,
 				7721F9701E9B569B002DB738 /* AppDelegate.m in Sources */,
+				7721F9A31E9B5870002DB738 /* MBZPickerView.m in Sources */,
 				7721F96D1E9B569B002DB738 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +520,7 @@
 				7721F99A1E9B569C002DB738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7721F99B1E9B569C002DB738 /* Build configuration list for PBXNativeTarget "MBZPickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +529,7 @@
 				7721F99D1E9B569C002DB738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7721F99E1E9B569C002DB738 /* Build configuration list for PBXNativeTarget "MBZPickerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +538,7 @@
 				7721F9A01E9B569C002DB738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
