@@ -126,12 +126,6 @@
 }
 
 
-- (IBAction)pickViewType7:(id)sender {
-    
-    
-}
-
-
 
 
 

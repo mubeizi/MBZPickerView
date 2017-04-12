@@ -104,30 +104,14 @@
                                     <action selector="pickViewType6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fbt-O1-nky"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqp-mY-Si2">
-                                <rect key="frame" x="50" y="500" width="275" height="35"/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="2iM-T0-xqn"/>
-                                    <constraint firstAttribute="height" constant="35" id="pLm-Yr-Kjo"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="时间(双选择)  HH:MM  HH:MM"/>
-                                <connections>
-                                    <action selector="pickViewType7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b56-Pi-bew"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Cqp-mY-Si2" secondAttribute="trailing" constant="50" id="0EX-LN-9T8"/>
-                            <constraint firstItem="Cqp-mY-Si2" firstAttribute="top" secondItem="4h5-CL-XY8" secondAttribute="bottom" constant="30" id="6GB-5Q-QfV"/>
                             <constraint firstAttribute="trailing" secondItem="16Z-7q-WPh" secondAttribute="trailing" constant="50" id="9Dk-ZI-W7h"/>
                             <constraint firstItem="4h5-CL-XY8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="CkW-6h-IyY"/>
                             <constraint firstItem="cqU-VO-QX8" firstAttribute="top" secondItem="c7e-f4-Vsv" secondAttribute="bottom" constant="30" id="FOR-AT-LS8"/>
                             <constraint firstAttribute="trailing" secondItem="b1r-yP-8No" secondAttribute="trailing" constant="50" id="IU4-gb-vbq"/>
                             <constraint firstItem="c7e-f4-Vsv" firstAttribute="top" secondItem="16Z-7q-WPh" secondAttribute="bottom" constant="30" id="KKX-JO-Ni1"/>
-                            <constraint firstItem="Cqp-mY-Si2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="KY5-tG-bT8"/>
                             <constraint firstItem="Bxx-Fj-R9R" firstAttribute="top" secondItem="cqU-VO-QX8" secondAttribute="bottom" constant="30" id="NFr-H6-feT"/>
                             <constraint firstItem="4h5-CL-XY8" firstAttribute="top" secondItem="Bxx-Fj-R9R" secondAttribute="bottom" constant="30" id="NyW-qv-2xS"/>
                             <constraint firstAttribute="trailing" secondItem="eGH-L9-oOu" secondAttribute="trailing" constant="60" id="QHY-gX-Hox"/>
